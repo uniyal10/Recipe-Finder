@@ -22,7 +22,7 @@ const Main = ({ meals }) => {
             <div style={content}>
               <Catagory catagory={meal.strCategory} area={meal.strArea} />
               {/* <p>{meal.strInstructions}</p> */}
-              <sapn>Ingredients</sapn>
+              <span>Ingredients</span>
               <Ingredient meal={meal} />
               <div style={recipes}>
                 <span>Recipes</span>
