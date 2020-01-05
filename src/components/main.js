@@ -6,15 +6,15 @@ import Recipes from "./recipes";
 // import Ingredient from './Ingredient'
 // import Title from './Title'
 const Main = ({ meals }) => {
-  console.log(meals);
+  // console.log(meals);
   return meals.length ? (
     meals.map(meal => {
       return (
-        <div
+        <div key={meal.idMeal}
           style={{ backgroundColor: "#b4b4b4", width: "97%", margin: "auto" }}
         >
           <Header header={meal.strMeal} />
-          <div style={container} key={meal.idMeal}>
+          <div  style={container} >
             {/* <Title title={meal}/> */}
             <div style={img}>
               <img alt="not found" src={meal.strMealThumb} style={getImg} />
@@ -22,7 +22,7 @@ const Main = ({ meals }) => {
             <div style={content}>
               <Catagory catagory={meal.strCategory} area={meal.strArea} />
               {/* <p>{meal.strInstructions}</p> */}
-              <span>Ingredients</span>
+              <span>Ingredients{meal.idMeal}</span>
               <Ingredient meal={meal} />
               <div style={recipes}>
                 <span>Recipes</span>
