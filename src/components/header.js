@@ -3,7 +3,7 @@ import React from "react";
 const Header = ({ header }) => {
   return (
     <div style={container}>
-      <h1>{header}</h1>
+      <h1>{header}</h1><i className="far fa-heart"></i>
     </div>
   );
 };
