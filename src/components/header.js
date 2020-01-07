@@ -1,14 +1,15 @@
 import React from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Header = ({ header }) => {
   return (
-    <div style={container}>
-      <h1>{header}</h1><i className="far fa-heart"></i>
+  	<div className="header">
+              <h1 className="header_heading">{header}</h1>
+              <FontAwesomeIcon icon={faCoffee} className="header_icon" />
     </div>
   );
 };
-const container = {
-  backgroundColor: "white",
-  textAlign: "center"
-};
+
+
+
 export default Header;
