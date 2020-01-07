@@ -2,7 +2,7 @@ import React from "react";
 
 const Ingredient = ({ meal }) => {
   return (
-    <div style={container}>
+    <div className="ingredient_container">
       <p>
         {meal.strIngredient1}--{meal.strMeasure1}
       </p>
@@ -24,13 +24,5 @@ const Ingredient = ({ meal }) => {
     </div>
   );
 };
-const container = {
-  alignText: "left",
-  padding: "20px",
-  backgroundColor: "#ee82ee",
-  height: "250px",
-  overflow: "scroll",
-  marginRight: "20px",
-  lineHeight: "2em"
-};
+
 export default Ingredient;
