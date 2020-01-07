@@ -21,6 +21,15 @@ const Ingredient = ({ meal }) => {
       <p>
         {meal.strIngredient6}--{meal.strMeasure6}
       </p>
+       <p>
+        {meal.strIngredient7}--{meal.strMeasure7}
+      </p>
+      <p>
+        {meal.strIngredient8}--{meal.strMeasure8}
+      </p>
+       <p>
+        {meal.strIngredient9}--{meal.strMeasure9}
+      </p>
     </div>
   );
 };

@@ -25,30 +25,31 @@
 #image{
   height: 400px;
   width: 400px;
+  border: 2px solid black;
 }
 
 /*header css */
 
 .header{
   display: flex;
-  align-items: center;
-  justify-content:flex-end;
   background-color: #ccc;
+  justify-content: center;
+  align-items: center;
 }
 .header_heading{
-  width:60%;
+
 }
 
 .header_icon{
-  width:40%;
-  margin-right: 100px;
+position: absolute;
+left: 90%;
 }
 
 
 .ingredient_container{
    text-align: left;
   padding: 20px;
-  background-color: #ee82ee;
+  background-color:#ee82ee;
   height: 250px;
   overflow: scroll;
   margin-right: 20px;
