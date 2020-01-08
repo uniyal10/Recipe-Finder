@@ -13,7 +13,7 @@ class Header extends Component{
   return (
   	<div className="header">
               <h1 className="header_heading">{this.props.header}</h1>
-                  <div id="header_icon_none" className="fa fa-heart-o" onClick={this.handleClick}></div>
+              <div id="header_icon_none" className="fa fa-heart-o" onClick={this.handleClick}></div>
 
     </div>
   );

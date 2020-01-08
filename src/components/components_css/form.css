@@ -1,8 +1,14 @@
+
+/* outer form contaiiner */
+
 .form_container{
 	 margin-top : 10px;
   text-align:  center;
   margin-bottom: 20px;
 }
+
+
+/* styling for input */
 .form_container input{
 	padding: 10px;
 	margin-right: 10px;
@@ -13,14 +19,22 @@
 	outline: none;
 	
 }
+
+/*main heading styling */
 .form_container h1{
 	color: #4a3f3c;
 	font-family: none;
 }
+
+/* styling for form */
 .form_container form{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+
+
+/* styling of buttons*/
 .btn{
 	padding: 10px;
 }
