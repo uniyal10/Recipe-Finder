@@ -42,7 +42,7 @@ else{
                                <Catagory catagory={meal.strCategory} area={meal.strArea} />  
                                <span>ingredients</span>
                                <Ingredient meal={meal} />
-                               <span style={{alignSelf:"center",color:"red"}}>Recipes</span>
+                               <div id="recipe_title">Recipes</div>
                                <Recipes recipes={meal.strInstructions} />
                           </div> 
 

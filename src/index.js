@@ -7,7 +7,8 @@ import "./styles.css";
 
 class App extends Component {
   state = {
-    meals: []
+    meals: [],
+    loading:false
   };
 
   addMeal = name => {
@@ -18,14 +19,19 @@ class App extends Component {
       .then(res => {
         // console.log(res);
         this.setState({
-          meals: res.data.meals
+          meals: res.data.meals,
+          loading:false
         });
       });
+      return 0;
   };
   render() {
     return (
       <div className="App">
         <Form addMeal={this.addMeal} />
+          <div id="refresh_icon">
+             {this.state.loading && <i className="fa fa-refresh fa-spin"></i>}
+          </div>
         <Main meals={this.state.meals} />
       </div>
     );

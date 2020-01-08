@@ -3,8 +3,7 @@ import './components_css/form.css'
 
 class Form extends Component {
   state = {
-    name: null,
-    loading:false
+    name: null
   };
   handleChange = e => {
     this.setState({
@@ -15,9 +14,6 @@ class Form extends Component {
     e.preventDefault();
     this.setState({loading:true})
     this.props.addMeal(this.state.name);
-    setTimeout(()=>{
-      this.setState({loading:false})
-    },1000);
   };
   render() {
     return (
@@ -29,7 +25,7 @@ class Form extends Component {
               id="name"
               onChange={this.handleChange}
             />
-            <button className="btn">{this.state.loading && <i className="fa fa-refresh fa-spin"></i>} Get Ingredient</button>
+            <button className="btn"> Get Ingredient</button>
           </form>
       </div>
     );

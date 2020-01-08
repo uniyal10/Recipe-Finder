@@ -37,9 +37,7 @@
   background-color: #f5f3da;
   justify-content: center;
   align-items: center;
-}
-.header_heading{
-
+  padding: 10px;
 }
 
 #header_icon_none{
@@ -48,12 +46,19 @@ position: absolute;
 left: 90%;
 }
 
+#header_icon_none{
+  cursor: pointer;
+}
+
 #header_icon_red{
   font-size: 1.5em;
 position: absolute;
 left: 90%;
 color:red;
 
+}
+#header_icon_red{
+  cursor: pointer;
 }
 
 
@@ -69,9 +74,15 @@ color:red;
 }
 
 
+#refresh_icon{
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-
-
+#recipe_title{
+  margin-top: 10px;
+  text-align: center;
+}
 /*
 .wrapper{
       display:grid;
