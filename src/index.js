@@ -9,12 +9,14 @@ class App extends Component {
   state = {
     meals: []
   };
+
   addMeal = name => {
     // console.log(name);
+    this.setState({loading:true})
     axios
       .get(`https://www.themealdb.com/api/json/v1/1/search.php?s=${name}`)
       .then(res => {
-        // console.log(res.data.meals);
+        // console.log(res);
         this.setState({
           meals: res.data.meals
         });

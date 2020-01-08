@@ -42,21 +42,20 @@
 
 }
 
-.header_icon_none{
+#header_icon_none{
   font-size: 1.5em;
 position: absolute;
 left: 90%;
 }
 
-.header_icon_red{
+#header_icon_red{
   font-size: 1.5em;
 position: absolute;
 left: 90%;
+color:red;
+
 }
-.header_icon:hover{
-  cursor: pointer;
-  color: red;
-}
+
 
 
 .ingredient_container{

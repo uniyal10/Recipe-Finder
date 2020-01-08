@@ -16,7 +16,7 @@ if(meals===null){
 }
 else if(meals.length===0){
   return(
-      <div style={{textAlign:"center"}}>
+     <div style={{textAlign:"center"}}>
       <h3>Type a Dish Name to Search for its Ingredients</h3>
     </div>
     )
@@ -53,5 +53,6 @@ else{
   ) 
 }
 };
+
 
 export default Main;
