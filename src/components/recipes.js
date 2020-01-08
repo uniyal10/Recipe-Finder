@@ -1,17 +1,11 @@
 import React from "react";
-
+import './components_css/recipe.css'
 const Recipes = ({ recipes }) => {
   return (
-    <div style={container}>
+    <div className="container">
       <p>{recipes}</p>
     </div>
   );
 };
-const container = {
-  textAlign: "center",
-  marginTop: "20px",
-  marginRight: "10px",
-  marginBottom: "5px",
-  backgroundColor: "#f7ccc6"
-};
+
 export default Recipes;

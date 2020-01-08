@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  background-color: #f5f3da;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#header_icon_none{
+  font-size: 1.5em;
+position: absolute;
+left: 90%;
+}
+
+#header_icon_none{
+  cursor: pointer;
+}
+
+#header_icon_red{
+  font-size: 1.5em;
+position: absolute;
+left: 90%;
+color:red;
+
+}
+#header_icon_red{
+  cursor: pointer;
+}
