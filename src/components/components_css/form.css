@@ -12,6 +12,10 @@
 	text-align: center;
 	
 }
+.form_container h1{
+	color: #4a3f3c;
+	font-family: none;
+}
 .form_container form{
 	margin-top: 10px;
 	margin-bottom: 10px;

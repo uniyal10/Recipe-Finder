@@ -10,14 +10,14 @@ const Main = ({ meals }) => {
 if(meals===null){
   return(
      <div style={{textAlign:"center"}}>
-      <h3>no data found</h3>
+      <h3>No Data has been received</h3>
     </div>
     )
 }
 else if(meals.length===0){
   return(
       <div style={{textAlign:"center"}}>
-      <h3>type recipe</h3>
+      <h3>Type a Dish Name to Search for its Ingredients</h3>
     </div>
     )
 }
@@ -42,6 +42,7 @@ else{
                                <Catagory catagory={meal.strCategory} area={meal.strArea} />  
                                <span>ingredients</span>
                                <Ingredient meal={meal} />
+                               <span style={{alignSelf:"center",color:"red"}}>Recipes</span>
                                <Recipes recipes={meal.strInstructions} />
                           </div> 
 

@@ -3,7 +3,7 @@
 /* outer main container
 */
 #main_container{
-  background-color:#eee;
+  background-color:#ebd8e5;
   width:95%;
   margin:auto;
 }
@@ -11,7 +11,6 @@
 
 .recipe_container{
 	display:flex;
-  justify-content: center;
   align-items: center;
 }
 .recipe_image{
@@ -20,6 +19,9 @@
 }
 .recipe_content{
   flex:3;
+}
+.#recipes{
+  text-align: center;
 }
 
 #image{
@@ -32,7 +34,7 @@
 
 .header{
   display: flex;
-  background-color: #ccc;
+  background-color: #f5f3da;
   justify-content: center;
   align-items: center;
 }
@@ -40,7 +42,13 @@
 
 }
 
-.header_icon{
+.header_icon_none{
+  font-size: 1.5em;
+position: absolute;
+left: 90%;
+}
+
+.header_icon_red{
   font-size: 1.5em;
 position: absolute;
 left: 90%;
@@ -54,12 +62,13 @@ left: 90%;
 .ingredient_container{
    text-align: left;
   padding: 20px;
-  background-color:#ee82ee;
+  background-color:#f7ccc6;
   height: 250px;
   overflow: scroll;
   margin-right: 20px;
   line-height: 2em;
 }
+
 
 
 

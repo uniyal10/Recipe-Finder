@@ -12,6 +12,6 @@ const container = {
   marginTop: "20px",
   marginRight: "10px",
   marginBottom: "5px",
-  backgroundColor: "#ee82ee"
+  backgroundColor: "#f7ccc6"
 };
 export default Recipes;
