@@ -23,9 +23,8 @@
 /*main heading styling */
 .form_container h1{
 	color: #4a3f3c;
-	font-family: none;
+	font-family: sans-serif;
 }
-
 /* styling for form */
 .form_container form{
 	margin-top: 10px;

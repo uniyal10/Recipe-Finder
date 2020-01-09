@@ -1,9 +1,10 @@
 .header{
   display: flex;
-  background-color: #f5f3da;
+  color: #4a3f3c;
+  background-color: #fce174;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  font-size:none;
 }
 
 #header_icon_none{
